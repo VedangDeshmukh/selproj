@@ -16,11 +16,11 @@ public class Authenticationpopup {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		
-		String username = "admin";
-		String password= "admin";
+		String usname = "admin";
+		String pass = "admin";
 		//driver.get("http://"+username+":"+password+"@"+"the-internet.herokuapp.com/basic_auth");
 		
-		driver.get("http://"+ username +":"+ password+"@"+   "the-internet.herokuapp.com/basic_auth");
+		driver.get("http://"+ usname +":"+ pass+"@"+   "the-internet.herokuapp.com/basic_auth");
 		
 	}
 
